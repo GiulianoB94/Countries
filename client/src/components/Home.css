@@ -1,0 +1,112 @@
+header {
+  background-color: #242254;
+  color: white;
+  display: flex;
+  width: 98, 5vw;
+}
+
+.headerTitle {
+  font-family: "Poppins";
+  font-size: 3rem;
+  justify-content: left;
+  text-align: left;
+  line-height: 3rem;
+  margin-left: 30px;
+  letter-spacing: 1px;
+}
+
+.headerLogo {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  margin-left: 900px;
+  margin-top: 40px;
+}
+
+.background {
+  background-color: #92a4d7;
+}
+
+.buttonFilt {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #ffffff;
+  background: #92a4d7;
+  text-align: center;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 5px;
+}
+
+.buttonFiltAct {
+  width: 200px;
+  height: 50px;
+  border: 2px solid #92a4d7;
+  background: white;
+  text-align: center;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+.select {
+  height: 30px;
+  width: 200px;
+  border: 2px solid #92a4d7;
+  background: white;
+  text-align: center;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  text-decoration: none;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.filtCont {
+  display: flex;
+  background-color: #c3c5c4;
+  padding: 20px;
+}
+
+.buttonFilt:hover {
+  left: -100%;
+  transition: all 300ms ease;
+  background-color: #ffffff;
+  border: 2px solid #92a4d7;
+  left: 100%;
+  pointer-events: visible;
+  cursor: pointer;
+}
+
+.buttonFiltAct:hover {
+  left: -100%;
+  transition: all 300ms ease;
+  background-color: #92a4d7;
+  left: 100%;
+  pointer-events: visible;
+  cursor: pointer;
+  transform: scale(1.05) translateY(-3px);
+}
+
+footer {
+  background-color: #242254;
+  color: white;
+  display: block;
+  margin-top: 50px;
+}

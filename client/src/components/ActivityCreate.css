@@ -1,0 +1,76 @@
+.mainscreen {
+  height: 100vh;
+}
+
+.titlePost {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 120px;
+  margin-top: 150px;
+}
+
+.rightsidePost {
+  background-color: #ffffff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.labelCardPost {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin: 0.8rem 0;
+}
+
+.inputbox {
+  color: #030303;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.selected {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 0.8rem 0;
+  word-spacing: 20px;
+}
+
+.backButton {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+  background-color: white;
+  color: #242254;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  height: 45px;
+  width: 85px;
+}
+
+.backButton:hover {
+  left: -100%;
+  transition: all 300ms ease;
+  background-color: #92a4d7;
+  left: 100%;
+  pointer-events: visible;
+  cursor: pointer;
+  transform: scale(1.05) translateY(-3px);
+}
+
+
